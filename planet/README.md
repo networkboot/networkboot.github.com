@@ -9,8 +9,7 @@ Articles will be excluded unless they contain one of these strings:
 * NFS
 * BOOTP
 * AoE
+* PXELinux
+* grub
 
-Preapproved feeds:
-
-* http://blog.robin.smidsrod.no/
-* http://warthog9.dreamwidth.org/
+Add your blog to the planet.csv file in this directory.
