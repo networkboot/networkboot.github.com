@@ -26,14 +26,34 @@
  <div class="container-fluid">
   <div class="row-fluid">
    <div class="span6">
+    <h2>What is network booting?</h2>
+    <p><a href="https://en.wikipedia.org/wiki/Network_boot">Network booting</a>,
+    or booting from LAN as it is also called, is a process which allows a computer
+    to start up and load an operating system or other program directly from the
+    network without any locally attached storage device, like a floppy, CDROM,
+    USB stick or hard drive.
+    </p>
+    <p>On <a href="https://en.wikipedia.org/wiki/X86_architecture">Intel
+    architecture</a> computers this is made possible with the <a
+    href="https://en.wikipedia.org/wiki/Preboot_Execution_Environment">PXE</a> standard.
+    PXE extends the features of the <a href="https://en.wikipedia.org/wiki/BIOS">BIOS</a>
+    so that it can run software directly from the network. PXE support is now sow common that you
+    can expect it to be present on any reasonably modern computer that comes
+    with an <a href="https://en.wikipedia.org/wiki/Modular_connector#8P8C">RJ45
+    plug</a> to connect to a cabled network.
+    </p>
+    <p>This fact alone makes it possible to <a href="https://en.wikipedia.org/wiki/Booting">boot</a>
+    an Intel-based computer from the network without having to burn an EEPROM on your
+    network card, like you had to do in the past.
+    </p>
+   </div>
+   <div class="span6">
     <h2>Getting started using Linux</h2>
     <ul>
      <li><a href="http://www.cyberciti.biz/faq/howto-ubuntu-debian-squeeze-dhcp-server-setup-tutorial/">Installing ISC DHCP service</a></li>
      <li><a href="http://www.cyberciti.biz/faq/install-configure-tftp-server-ubuntu-debian-howto/">Installing tftpd-hpa service</a></li>
      <li><a href="http://ipxe.org/download">Building iPXE and installing it on your TFTP server</a></li>
     </ul>
-   </div>
-   <div class="span6">
     <h2>Getting started using Windows</h2>
     <ul>
      <li><a href="http://technet.microsoft.com/en-us/library/cc732075.aspx">Installing Windows DHCP service</a></li>
