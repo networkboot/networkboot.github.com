@@ -37,11 +37,10 @@
     architecture</a> computers this is made possible with the <a
     href="https://en.wikipedia.org/wiki/Preboot_Execution_Environment">PXE</a> standard.
     PXE extends the features of the <a href="https://en.wikipedia.org/wiki/BIOS">BIOS</a>
-    so that it can run software directly from the network. PXE support is now sow common that you
-    can expect it to be present on any reasonably modern computer that comes
-    with an <a href="https://en.wikipedia.org/wiki/Modular_connector#8P8C">RJ45</a>
-    port to connect to a cabled <a
-    href="https://en.wikipedia.org/wiki/Ethernet">Ethernet</a> network.
+    so that it can run software directly from the network. PXE support is now so common that you
+    can expect it to be present in any reasonably modern computer that comes
+    with an <a href="https://en.wikipedia.org/wiki/Modular_connector#8P8C">Ethernet
+    jack</a> (commonly known as RJ45).
     </p>
     <p>This fact alone makes it possible to <a href="https://en.wikipedia.org/wiki/Booting">boot</a>
     an Intel-based computer from the network without having to burn an EEPROM on your
@@ -91,19 +90,23 @@
    <div class="span6">
     <h2>Core technologies</h2>
     <ul>
-     <li><a href="https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol">DHCP</a> - a protocol used to initialize network configuration for a client</li>
-     <li><a href="https://en.wikipedia.org/wiki/TFTP">TFTP</a> - a protocol used to download a network boot program (NBP)</li>
-     <li><a href="https://en.wikipedia.org/wiki/Http">HTTP</a> - a protocol used to download information from a web server</li>
+     <li><a href="https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol">DHCP</a> protocol, used to initialize network configuration for a client</li>
+     <li><a href="https://en.wikipedia.org/wiki/TFTP">TFTP</a> protocol, used to download a network boot program (NBP)</li>
+     <li><a href="https://en.wikipedia.org/wiki/Http">HTTP</a> protocol, used to download data from a web server</li>
      <li><a href="https://en.wikipedia.org/wiki/Preboot_Execution_Environment">PXE</a> - a way to boot Intel computers using DHCP and TFTP</li>
      <li><a href="https://en.wikipedia.org/wiki/UNDI">UNDI</a> - an API used by the PXE environment to generalize access to networking hardware</li>
     </ul>
-    <h2>Other protocols to understand</h2>
+    <h2>Other relevant protocols</h2>
+    <p>
+    All of these network protocols deal with how to access storage over they network
+    in different ways.
+    </p>
     <ul>
-     <li><a href="https://en.wikipedia.org/wiki/ISCSI">iSCSI</a> - a protocol used to access storage block devices over the network</li>
-     <li><a href="https://en.wikipedia.org/wiki/ATA_over_Ethernet">AoE</a> - a protocol used to access storage block devices over the local network only</li>
-     <li><a href="https://en.wikipedia.org/wiki/Network_block_device">NBD</a> - a protocol used to access storage block devices over the network</li>
-     <li><a href="https://en.wikipedia.org/wiki/Network_File_System">NFS</a> - a protocol used to access files over the network (mostly Unix)</li>
-     <li><a href="https://en.wikipedia.org/wiki/Server_Message_Block">SMB/CIFS</a> - a protocol used to access files over the network (mostly Windows)</li>
+     <li><a href="https://en.wikipedia.org/wiki/ISCSI">iSCSI</a> - for block devices</li>
+     <li><a href="https://en.wikipedia.org/wiki/ATA_over_Ethernet">AoE</a> - for block devices (non-routable, local network only)</li>
+     <li><a href="https://en.wikipedia.org/wiki/Network_block_device">NBD</a> - for block devices</li>
+     <li><a href="https://en.wikipedia.org/wiki/Network_File_System">NFS</a> - for files (mostly used on Unix)</li>
+     <li><a href="https://en.wikipedia.org/wiki/Server_Message_Block">SMB/CIFS</a> - for files (mostly used on Windows)</li>
     </ul>
    </div>
    <div class="span6">
