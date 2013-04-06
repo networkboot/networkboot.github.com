@@ -15,12 +15,12 @@
  <div class="header container-fluid">
   <div class="row-fluid">
    <div class="logo span1">
-    <img src="[% prefix %]img/logo.svg" width="96" height="96" alt="NetworkBoot.org logo">
+    <a href="[% IF prefix; prefix; ELSE; '.'; END; %]" [% IF prefix %]title="Back to front page"[% END %]>
+     <img src="[% prefix %]img/logo.svg" width="96" height="96" alt="NetworkBoot.org logo">
+    </a>
    </div>
    <div class="span11">
-[% IF prefix %]<a href="[% prefix %]">[% END %]
     <h1 class="title">[% title | html %]</h1>
-[% IF prefix %]</a>[% END %]
 [% IF subtitle %]
     <div class="subtitle">
      [% subtitle %]
@@ -30,10 +30,7 @@
   </div>
  </div>
  <div class="container-fluid">
-
 [% content %]
-[%# this is where the content goes %]
-
   <div class="push"></div>
  </div>
 </div>
@@ -60,7 +57,7 @@
  </div>
 </div>
 
-<a href="https://github.com/networkboot/networkboot.github.com"><img
+<a href="https://github.com/networkboot/networkboot.github.com" target="_blank"><img
  style="position: absolute; top: 0; right: 0; border: 0;"
  src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"
  alt="Fork me on GitHub"

@@ -1,8 +1,15 @@
 [% WRAPPER page
    root = ".."
    title = "NetworkBoot.org Planet"
+   subtitle = "A collection of blog posts by network booting enthusiasts."
    feed = "http://pipes.yahoo.com/pipes/pipe.run?_id=1524478dd20222ce216bcaf133d6ef49&_render=rss"
 %]
-<script src="http://l.yimg.com/a/i/us/pps/listbadge_1.6.js">{"pipe_id":"1524478dd20222ce216bcaf133d6ef49","_btype":"list","width":"97%","height":"100%"}</script>
-<a href="http://pipes.yahoo.com/pipes/pipe.run?_id=1524478dd20222ce216bcaf133d6ef49&_render=rss">Get planet feed</a>
+  <div class="row-fluid">
+   <div class="span6">
+    <script src="http://l.yimg.com/a/i/us/pps/listbadge_1.6.js">{"pipe_id":"1524478dd20222ce216bcaf133d6ef49","_btype":"list","width":"97%","height":"100%"}</script>
+   </div>
+   <div class="span6">
+    <a href="http://pipes.yahoo.com/pipes/pipe.run?_id=1524478dd20222ce216bcaf133d6ef49&_render=rss">Add this feed to your news reader.</a>
+   </div>
+  </div>
 [% END %]
