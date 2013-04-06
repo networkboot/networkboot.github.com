@@ -1,3 +1,17 @@
 #!/bin/bash
 
+which ttree >/dev/null
+if [ "$?" != "0" ]; then
+    echo "The 'ttree' command was not found. It's needed to compile the templates."
+    echo "Please install it with your favorite CPAN client using one of these commands:"
+    echo
+    echo " cpanm Template"
+    echo " cpan Template"
+    echo " sudo apt-get install libtemplate-perl"
+    echo
+    exit 1;
+fi
+
+pushd $(dirname $0) >/dev/null
 ttree -f ttree.rc
+popd >/dev/null
