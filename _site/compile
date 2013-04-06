@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ttree -f ttree.rc
