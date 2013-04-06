@@ -84,7 +84,6 @@ suffix tt=html
 #    depend index.html=mainpage,sidebar
 #    depend menu=menuitem,menubar
 # 
-depend *.tt=page
 
 #------------------------------------------------------------------------
 # The following options usually relate to a particular project so 
