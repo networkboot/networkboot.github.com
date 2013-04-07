@@ -1,8 +1,9 @@
 [% WRAPPER page
    root = ".."
-   title = "NetworkBoot.org Planet"
+   title = "NetworkBoot.org blog roll"
    subtitle = "A collection of blog posts by network booting enthusiasts."
    feed = "http://pipes.yahoo.com/pipes/pipe.run?_id=1524478dd20222ce216bcaf133d6ef49&_render=rss"
+   feed_title = "NetworkBoot.org blog roll feed"
 %]
   <div class="row-fluid">
    <div class="span6">

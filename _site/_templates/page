@@ -8,7 +8,7 @@
 <link href="[% prefix %]css/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="[% prefix %]css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
 <link href="[% prefix %]css/style.css" rel="stylesheet">
-<link rel="alternate" type="application/rss+xml" title="[% title | html %] newsfeed" href="[% feed %]">
+<link rel="alternate" type="application/rss+xml" title="[% feed_title || title _ ' news feed' | html %]" href="[% feed %]">
 </head>
 <body>
 <div class="page-wrapper">
