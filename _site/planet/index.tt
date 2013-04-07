@@ -15,7 +15,11 @@
 [% IF loop.first %]
     <ul>
 [% END %]
-     <li><a href="[% blog.site %]" title="Also known as [% blog.nickname | html %]">[% blog.owner.substr(1,-1) | html %]</a></li>
+     <li>
+      <a href="[% blog.site %]"
+         [%- IF blog.nickname %] title="Also known as [% blog.nickname | html %]"[% END %]>
+       [%- blog.owner.substr(1,-1) | html %]</a>
+     </li>
 [% IF loop.last %]
     </ul>
 [% END %]
