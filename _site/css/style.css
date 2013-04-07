@@ -12,3 +12,42 @@ html, body { height: 100%; }
 .footer { background-color: #f5f5f5; }
 .footer .block { padding: 1em; vertical-align: top; }
 .footer .license { text-align: right; }
+
+/* Details here: http://unindented.org/articles/2009/10/github-ribbon-using-css-transforms/ */
+.ribbon {
+  background-color: #a00;
+  overflow: hidden;
+  /* top left corner */
+  position: absolute;
+  right: -3em;
+  top: 2.5em;
+  /* 45 deg cw rotation */
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  /* shadow */
+  -moz-box-shadow: 0 0 1em #888;
+  -webkit-box-shadow: 0 0 1em #888;
+  box-shadow: 0 0 1em #888;
+}
+
+.ribbon a {
+  border: 1px solid #faa;
+  color: #fff;
+  display: block;
+  font: bold 81.25% 'Helvetiva Neue', Helvetica, Arial, sans-serif;
+  margin: 0.05em 0 0.075em 0;
+  padding: 0.5em 3.5em;
+  text-align: center;
+  text-decoration: none;
+  /* shadow */
+  text-shadow: 0 0 0.5em #444;
+}
+.ribbon-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  width: 141px;
+  height: 141px;
+}
