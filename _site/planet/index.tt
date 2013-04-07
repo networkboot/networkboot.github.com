@@ -9,7 +9,18 @@
     <script src="http://l.yimg.com/a/i/us/pps/listbadge_1.6.js">{"pipe_id":"1524478dd20222ce216bcaf133d6ef49","_btype":"list","width":"97%","height":"100%"}</script>
    </div>
    <div class="span6">
-    <a href="http://pipes.yahoo.com/pipes/pipe.run?_id=1524478dd20222ce216bcaf133d6ef49&_render=rss">Add this feed to your news reader.</a>
+    <h2>Contributors</h2>
+[% USE blogs = datafile('planet/blogs.csv', delim = ';') %]
+[% FOREACH blog IN blogs %]
+[% IF loop.first %]
+    <ul>
+[% END %]
+     <li><a href="[% blog.site %]">[% blog.owner.substr(1,-1) %]</a></li>
+[% IF loop.last %]
+    </ul>
+[% END %]
+[% END %]
+    <a class="btn" href="http://pipes.yahoo.com/pipes/pipe.run?_id=1524478dd20222ce216bcaf133d6ef49&_render=rss">Add this feed to your news reader</a>
    </div>
   </div>
 [% END %]
