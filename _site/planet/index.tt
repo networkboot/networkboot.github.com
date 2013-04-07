@@ -9,6 +9,20 @@
     <script src="http://l.yimg.com/a/i/us/pps/listbadge_1.6.js">{"pipe_id":"1524478dd20222ce216bcaf133d6ef49","_btype":"list","width":"97%","height":"100%"}</script>
    </div>
    <div class="span6">
+    <h2>Becoming a contributor</h2>
+    <p>
+     If you write about topics related to network booting and would like
+     your blog included in this blog roll, please <a
+     href="https://github.com/networkboot/networkboot.github.com/issues/new">
+     create a new request</a> in our issue tracker. Remember to include the link to
+     your blog, your full name and whatever nickname you use online (if
+     any).  Your blog must contain a meta tag that points to either an RSS
+     or Atom feed for posts to be included here. Any good blogging system
+     should already have this feature.
+    </p>
+    <a class="btn" href="http://pipes.yahoo.com/pipes/pipe.run?_id=1524478dd20222ce216bcaf133d6ef49&_render=rss">
+     Add this feed to your news reader
+    </a>
     <h2>Contributors</h2>
 [% USE blogs = datafile('planet/blogs.csv', delim = ';') %]
 [% FOREACH blog IN blogs %]
@@ -24,18 +38,6 @@
     </ul>
 [% END %]
 [% END %]
-    <a class="btn" href="http://pipes.yahoo.com/pipes/pipe.run?_id=1524478dd20222ce216bcaf133d6ef49&_render=rss">Add this feed to your news reader</a>
-    <h2>Becoming a contributor</h2>
-    <p>
-     If you write about topics related to network booting and would like
-     your blog included in this blog roll, please <a
-     href="https://github.com/networkboot/networkboot.github.com/issues/new">
-     create a new request</a> in our issue tracker. Remember to include the link to
-     your blog, your full name and whatever nickname you use online (if
-     any).  Your blog must contain a meta tag that points to either an RSS
-     or Atom feed for posts to be included here. Any good blogging system
-     should already have this feature.
-    </p>
    </div>
   </div>
 [% END %]
