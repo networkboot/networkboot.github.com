@@ -92,9 +92,17 @@
    <div class="span6">
      <h2>More information</h2>
      <ul>
-      <li><a href="http://ipxe.org/howto/winpe">Installing Windows using iPXE and wimboot</a></li>
       <li><a href="planet/">Blog posts from network booting enthusiasts</a></li>
+      <li><a href="http://ipxe.org/howto/winpe">Installing Windows using iPXE and wimboot</a></li>
       <li><a href="http://technet.microsoft.com/en-us/library/cc722358%28v=ws.10%29.aspx">Deploying Windows over the network using WDS</a></li>
+      <li>
+       <a href="http://www.bromosapien.net:8080/media/index.php/Linux_Windows_PXE_Installation">Installing Windows 7 using PXELinux</a>
+       <ul>
+        <li><a href="https://www.youtube.com/watch?v=MvqiCxmzHYU">YouTube screencast - Part 1</a></li>
+        <li><a href="https://www.youtube.com/watch?v=eExcQv4ifJM">YouTube screencast - Part 2</a></li>
+        <li><a href="https://www.youtube.com/watch?v=jrwObHsRyK4">YouTube screencast - Part 3</a></li>
+       </ul>
+      </li>
       <li><a href="http://blogoless.blogspot.it/2013/03/ipxe-server-on-centos-to-serve-smartos.html">How to set up a CentOS server used to netboot SmartOS</a></li>
       <li><a href="http://etherboot.org/" title="No longer actively updated, but contains some good stuff not found elsewhere">Etherboot/gPXE Wiki</a></li>
       <li><a href="http://www.kegel.com/linux/pxe.html">Dan Kegel's page about PXE and network booting</a></li>
