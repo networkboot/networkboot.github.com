@@ -53,3 +53,19 @@ body { margin: 0 0 120px; /* bottom = footer height */ }
   width: 141px;
   height: 141px;
 }
+
+/* Blog roll styling */
+.feedburnerFeedBlock #creditfooter { display: none; }
+.feedburnerFeedBlock > ul { margin: 0; }
+.feedburnerFeedBlock > ul > li { list-style-type: none; margin: 1em 0; padding: 0 0 1em; border-bottom: thin dotted #ccc; position: relative; }
+.feedburnerFeedBlock > ul > li > .headline { font-weight: bold; }
+.feedburnerFeedBlock > ul > li > .date { float: right; font-style: italic; padding-left: 1em; margin: 0;}
+.feedburnerFeedBlock > ul > li > div { overflow: hidden; max-height: 300px; margin: 0.5em 0 0 0; clear: both; }
+.feedburnerFeedBlock > ul > li > div:hover { overflow: auto; }
+/* Diminish visibility of headers inside blog articles */
+.feedburnerFeedBlock > ul > li h1,
+.feedburnerFeedBlock > ul > li h2,
+.feedburnerFeedBlock > ul > li h3,
+.feedburnerFeedBlock > ul > li h4,
+.feedburnerFeedBlock > ul > li h5,
+.feedburnerFeedBlock > ul > li h6 { font-size: 100%; }
