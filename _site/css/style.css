@@ -1,10 +1,7 @@
 /* Sticky footer */
-html, body { height: 100%; }
-.page-wrapper { min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -120px; }
-.push, .footer { height: 120px; }
-@media (max-width: 767px) {
- .footer { margin-left: -20px; margin-right: -20px; padding-left: 20px; padding-right: 20px; }
-}
+html { position: relative; min-height: 100%; }
+body { margin: 0 0 120px; /* bottom = footer height */ }
+.footer { position: absolute; left: 0; bottom: 0; height: 120px; width: 100%; }
 
 /* Normal style */
 .header { margin-bottom: 1em; }
@@ -12,6 +9,11 @@ html, body { height: 100%; }
 .footer { background-color: #f5f5f5; }
 .footer .block { padding: 1em; vertical-align: top; }
 .footer .license { text-align: right; }
+
+/* Make footer tighter on smaller screens */
+@media (max-width: 767px) {
+ .footer { margin-left: -20px; margin-right: -20px; padding-left: 20px; padding-right: 20px; }
+}
 
 /* Details here: http://unindented.org/articles/2009/10/github-ribbon-using-css-transforms/ */
 .ribbon {
