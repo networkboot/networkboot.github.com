@@ -1,4 +1,7 @@
-[% IF root; SET prefix = root _ '/'; END %]
+[%
+IF root; SET prefix = root _ '/'; END;
+SET page_path = template.name.replace("index\.tt$", "");
+%]
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,6 +32,7 @@
    </div>
   </div>
  </div>
+[% INCLUDE menu %]
  <div class="container-fluid">
 [% content %]
   <div class="row-fluid">
@@ -80,7 +84,7 @@
 <!-- Disqus comments -->
 <script type="text/javascript">
     var disqus_shortname = 'networkboot'; // required: replace example with your forum shortname
-    var disqus_url = 'http://networkboot.org/[% template.name %]';
+    var disqus_url = 'http://networkboot.org/[% page_path %]';
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';

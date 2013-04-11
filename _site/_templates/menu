@@ -1,0 +1,23 @@
+[% SET menu_items = [
+ [ "",       "Front page" ],
+ [ "planet/", "Blog roll", "Blog posts from network booting enthusiasts"  ],
+] %]
+<div class="menu container-fluid">
+ <div class="navbar">
+  <div class="navbar-inner">
+[% FOREACH menu_item IN menu_items %]
+[% IF loop.first %]
+   <ul class="nav">
+[% END %]
+    <li[% IF menu_item.0 == page_path %] class="active"[% END %]>
+     <a href="[% prefix %][% menu_item.0 %]" [% IF menu_item.2 %]title="[% menu_item.2 | html %]"[% END %]>
+      [% menu_item.1 %]
+     </a>
+    </li>
+[% IF loop.last %]
+   </ul>
+[% END %]
+[% END %]
+  </div>
+ </div>
+</div>
