@@ -44,6 +44,7 @@ body { margin: 0 0 120px; /* bottom = footer height */ }
   text-decoration: none;
   /* shadow */
   text-shadow: 0 0 0.5em #444;
+  white-space: nowrap;
 }
 .ribbon-wrapper {
   position: absolute;
