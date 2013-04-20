@@ -91,6 +91,6 @@ SET page_path = template.name.replace("index\.tt$", "");
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
 </script>
-
+[% INCLUDE ga %]
 </body>
 </html>
