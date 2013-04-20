@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>NetworkBoot.org blog roll</title>
+<title>Network booting tools</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="../css/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="../css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
 <link href="../css/style.css" rel="stylesheet">
-<link rel="alternate" type="application/rss+xml" title="NetworkBoot.org blog roll feed" href="http://pipes.yahoo.com/pipes/pipe.run?_id=1524478dd20222ce216bcaf133d6ef49&_render=rss">
+<link rel="alternate" type="application/rss+xml" title="Network booting tools news feed" href="">
 </head>
 <body>
 <div class="page-wrapper">
@@ -19,9 +19,9 @@
     </a>
    </div>
    <div class="span11">
-    <h1 class="title">NetworkBoot.org blog roll</h1>
+    <h1 class="title">Network booting tools</h1>
     <div class="subtitle">
-     A collection of blog posts by network booting enthusiasts.    </div>
+     The programs that make network booting possible.    </div>
    </div>
   </div>
  </div>
@@ -45,7 +45,7 @@
      <a href="../help/" title="Participate in the network booting community and find answers to your questions">
       Getting help     </a>
     </li>
-    <li>
+    <li class="active">
      <a href="../tools/" title="The programs that make network booting possible">
       Tools     </a>
     </li>
@@ -53,7 +53,7 @@
      <a href="../use_cases/" title="What people want to achieve by setting up a network boot environment">
       Use cases     </a>
     </li>
-    <li class="active">
+    <li>
      <a href="../planet/" title="Blog posts from network booting enthusiasts">
       Blog roll     </a>
     </li>
@@ -68,77 +68,16 @@
  <div class="container-fluid">
   <div class="row-fluid">
    <div class="span6">
-    <h2>Blog posts</h2>
-    <!-- Yahoo Pipes feed improved with FeedBurner -->
-    <script src="http://feeds.feedburner.com/NetworkBoot?format=sigpro" type="text/javascript"></script>
-    <noscript><p>Subscribe to RSS headline updates from: <a href="http://feeds.feedburner.com/NetworkBoot"></a><br/>Powered by FeedBurner</p></noscript>
+    <h2>Tools used in network booting</h2>
+    <ul>
+     <li><a href="http://ipxe.org">iPXE</a> - a scriptable network boot loader and firmware</li>
+     <li><a href="http://www.syslinux.org/wiki/index.php/PXELINUX">PXELINUX</a> - a flexible network boot loader</li>
+     <li><a href="http://ipxe.org/wimboot">wimboot</a> - boot Windows .wim files directly using iPXE</li>
+     <li><a href="http://rom-o-matic.eu/">rom-o-matic.eu</a> - a simple web interface for building an iPXE binary (beta)</li>
+     <li><a href="http://tftpd32.jounin.net/">Tftpd32</a> - a free DHCP and TFTP server for Windows</li>
+    </ul>
    </div>
    <div class="span6">
-    <h2>Becoming a contributor</h2>
-    <p>
-     If you write about topics related to network booting and would like
-     your blog included in this blog roll, please <a
-     href="https://github.com/networkboot/networkboot.github.com/issues/new">
-     create a new request</a> in our issue tracker. Remember to include the link to
-     your blog, your full name and whatever nickname you use online (if
-     any).  Your blog must contain a meta tag that points to either an RSS
-     or Atom feed for posts to be included here. Any good blogging system
-     should already have this feature.
-    </p>
-    <a class="btn" href="http://feeds.feedburner.com/NetworkBoot">
-     Add this feed to your news reader
-    </a>
-    <h2>Contributors</h2>
-    <ul>
-     <li>
-      <a href="http://blog.robin.smidsrod.no/" title="Also known as robinsmidsrod">Robin Smidsrød</a>
-     </li>
-     <li>
-      <a href="http://warthog9.dreamwidth.org/" title="Also known as warthog9">John Hawley</a>
-     </li>
-     <li>
-      <a href="http://blogoless.blogspot.it/" title="Also known as blogoless">Al Cir</a>
-     </li>
-     <li>
-      <a href="http://cuddletech.com/blog/" title="Also known as benr">Ben Rockwood</a>
-     </li>
-     <li>
-      <a href="http://www.jukie.net/bart/blog" title="Also known as bartman">Bart Trojanowski</a>
-     </li>
-     <li>
-      <a href="http://blog.zorinaq.com/" title="Also known as mrb">Marc Bevand</a>
-     </li>
-     <li>
-      <a href="http://blog.devicenull.org" title="Also known as devicenull">Brian Rak</a>
-     </li>
-     <li>
-      <a href="http://nahamu.github.io/" title="Also known as nahamu">Nahum Shalman</a>
-     </li>
-     <li>
-      <a href="http://www.jbmurphy.com/">Jeffrey B. Murphy</a>
-     </li>
-     <li>
-      <a href="http://braastad.org/blog/" title="Also known as espebra">Espen Braastad</a>
-     </li>
-     <li>
-      <a href="http://www.panticz.de/" title="Also known as panticz">Pawel Konczalski</a>
-     </li>
-     <li>
-      <a href="http://opusmagnus.wordpress.com/">Magnus Hedemark</a>
-     </li>
-     <li>
-      <a href="http://rhevdup.blogspot.com/">Crash</a>
-     </li>
-     <li>
-      <a href="http://broken.net/">Jason Matthews</a>
-     </li>
-     <li>
-      <a href="http://blog.alainodea.com/">Alain O'Dea</a>
-     </li>
-     <li>
-      <a href="http://jpmens.net/" title="Also known as jpmens">Jan-Piet Mens</a>
-     </li>
-    </ul>
    </div>
   </div>
   <div class="row-fluid">
@@ -190,7 +129,7 @@
 <!-- Disqus comments -->
 <script type="text/javascript">
     var disqus_shortname = 'networkboot'; // required: replace example with your forum shortname
-    var disqus_url = 'http://networkboot.org/planet/';
+    var disqus_url = 'http://networkboot.org/tools/';
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';

@@ -1,0 +1,20 @@
+[% WRAPPER page
+   root = ".."
+   title = "Getting help with network booting"
+   subtitle = "Participate in the network booting community and find answers to your questions."
+%]
+  <div class="row-fluid">
+   <div class="span6">
+    <h2>Where to get help</h2>
+    <ul>
+     <li><a href="http://webchat.freenode.net/?channels=%23ipxe">#ipxe IRC channel on FreeNode</a></li>
+     <li><a href="http://webchat.freenode.net/?channels=%23syslinux">#syslinux IRC channel on FreeNode</a></li>
+     <li><a href="http://forum.ipxe.org/">iPXE forum</a></li>
+     <li><a href="http://reboot.pro/forum/12-boot-from-lan/">reboot.pro network boot forum</a></li>
+     <li><a href="https://plus.google.com/communities/103400740116727487788">Google+ network booting community</a></li>
+    </ul>
+   </div>
+   <div class="span6">
+   </div>
+  </div>
+[% END %]

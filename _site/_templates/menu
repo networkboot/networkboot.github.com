@@ -1,6 +1,12 @@
 [% SET menu_items = [
- [ "",       "Front page" ],
- [ "planet/", "Blog roll", "Blog posts from network booting enthusiasts"  ],
+ [ "",                 "Front page" ],
+ [ "fundamentals/",    "Fundamentals", "Understanding how it all fits together" ],
+ [ "getting_started/", "Getting started" ],
+ [ "help/",            "Getting help", "Participate in the network booting community and find answers to your questions" ],
+ [ "tools/",           "Tools",        "The programs that make network booting possible" ],
+ [ "use_cases/",       "Use cases",    "What people want to achieve by setting up a network boot environment" ],
+ [ "planet/",          "Blog roll",    "Blog posts from network booting enthusiasts" ],
+ [ "other/",           "Other resources" ],
 ] %]
 <div class="menu container-fluid">
  <div class="navbar">

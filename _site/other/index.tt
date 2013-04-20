@@ -1,0 +1,16 @@
+[% WRAPPER page
+   root = ".."
+   title = "Other network booting resources"
+%]
+  <div class="row-fluid">
+   <div class="span6">
+     <h2>Sites with more information</h2>
+     <ul>
+      <li><a href="http://etherboot.org/">Etherboot/gPXE Wiki</a> -  No longer actively maintained, but contains some good stuff not found elsewhere</li>
+      <li><a href="http://www.kegel.com/linux/pxe.html">Dan Kegel's page about PXE and network booting</a></li>
+     </ul>
+   </div>
+   <div class="span6">
+   </div>
+  </div>
+[% END %]

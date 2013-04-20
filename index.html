@@ -34,8 +34,32 @@
       Front page     </a>
     </li>
     <li>
+     <a href="fundamentals/" title="Understanding how it all fits together">
+      Fundamentals     </a>
+    </li>
+    <li>
+     <a href="getting_started/" >
+      Getting started     </a>
+    </li>
+    <li>
+     <a href="help/" title="Participate in the network booting community and find answers to your questions">
+      Getting help     </a>
+    </li>
+    <li>
+     <a href="tools/" title="The programs that make network booting possible">
+      Tools     </a>
+    </li>
+    <li>
+     <a href="use_cases/" title="What people want to achieve by setting up a network boot environment">
+      Use cases     </a>
+    </li>
+    <li>
      <a href="planet/" title="Blog posts from network booting enthusiasts">
       Blog roll     </a>
+    </li>
+    <li>
+     <a href="other/" >
+      Other resources     </a>
     </li>
    </ul>
   </div>
@@ -65,85 +89,9 @@
     network card, like you had to do in the past.
     </p>
    </div>
-   <div class="span6">
-    <h2>Getting started using Linux</h2>
-    <ul>
-     <li><a href="http://www.cyberciti.biz/faq/howto-ubuntu-debian-squeeze-dhcp-server-setup-tutorial/">Installing ISC DHCP service</a></li>
-     <li><a href="http://www.cyberciti.biz/faq/install-configure-tftp-server-ubuntu-debian-howto/">Installing tftpd-hpa service</a></li>
-     <li><a href="http://ipxe.org/download">Building iPXE and installing it on your TFTP server</a></li>
-    </ul>
-    <h2>Getting started using Windows</h2>
-    <ul>
-     <li><a href="http://technet.microsoft.com/en-us/library/cc732075.aspx">Installing Windows DHCP service</a></li>
-     <li><a href="http://technet.microsoft.com/en-us/library/dd348475%28v=ws.10%29.aspx">Installing Windows TFTP service (called Transport Server role)</a></li>
-     <li><a href="http://www.psychocats.net/ubuntu/virtualbox">Installing a Virtual Machine with Linux to compile iPXE</a> (optional)</li>
-     <li><a href="http://ipxe.org/download">Building iPXE and installing it on your TFTP server</a></li>
-    </ul>
-   </div>
-  </div>
-  <div class="row-fluid">
-   <div class="span6">
-    <h2>Tools to use</h2>
-    <ul>
-     <li><a href="http://ipxe.org">iPXE</a> - a scriptable network boot loader and firmware</li>
-     <li><a href="http://www.syslinux.org/wiki/index.php/PXELINUX">PXELINUX</a> - a flexible network boot loader</li>
-     <li><a href="http://ipxe.org/wimboot">wimboot</a> - boot Windows .wim files directly using iPXE</li>
-     <li><a href="http://rom-o-matic.eu/">rom-o-matic.eu</a> - a simple web interface for building an iPXE binary (beta)</li>
-    </ul>
-    <h2>Places to discuss</h2>
-    <ul>
-     <li><a href="http://webchat.freenode.net/?channels=%23ipxe">#ipxe IRC channel on FreeNode</a></li>
-     <li><a href="http://webchat.freenode.net/?channels=%23syslinux">#syslinux IRC channel on FreeNode</a></li>
-     <li><a href="http://forum.ipxe.org/">iPXE forum</a></li>
-     <li><a href="http://reboot.pro/forum/12-boot-from-lan/">reboot.pro network boot forum</a></li>
-     <li><a href="https://plus.google.com/communities/103400740116727487788">Google+ network booting community</a></li>
-    </ul>
-   </div>
    <div class="twitter span6">
     <a class="twitter-timeline" href="https://twitter.com/NetworkBoot"
     height="300" data-widget-id="319719020716756993">Tweets by @NetworkBoot</a>
-   </div>
-  </div>
-  <div class="row-fluid">
-   <div class="span6">
-    <h2>Core technologies</h2>
-    <ul>
-     <li><a href="https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol">DHCP</a> protocol, used to initialize network configuration for a client</li>
-     <li><a href="https://en.wikipedia.org/wiki/TFTP">TFTP</a> protocol, used to download a network boot program (NBP)</li>
-     <li><a href="https://en.wikipedia.org/wiki/Http">HTTP</a> protocol, used to download data from a web server</li>
-     <li><a href="https://en.wikipedia.org/wiki/Preboot_Execution_Environment">PXE</a> - a way to boot Intel computers using DHCP and TFTP</li>
-     <li><a href="https://en.wikipedia.org/wiki/UNDI">UNDI</a> - an API used by the PXE environment to generalize access to networking hardware</li>
-    </ul>
-    <h2>Other relevant protocols</h2>
-    <p>
-    All of these network protocols deal with how to access storage over they network
-    in different ways.
-    </p>
-    <ul>
-     <li><a href="https://en.wikipedia.org/wiki/ISCSI">iSCSI</a> - for block devices</li>
-     <li><a href="https://en.wikipedia.org/wiki/ATA_over_Ethernet">AoE</a> - for block devices (non-routable, local network only)</li>
-     <li><a href="https://en.wikipedia.org/wiki/Network_block_device">NBD</a> - for block devices</li>
-     <li><a href="https://en.wikipedia.org/wiki/Network_File_System">NFS</a> - for files (mostly used on Unix)</li>
-     <li><a href="https://en.wikipedia.org/wiki/Server_Message_Block">SMB/CIFS</a> - for files (mostly used on Windows)</li>
-    </ul>
-   </div>
-   <div class="span6">
-     <h2>More information</h2>
-     <ul>
-      <li><a href="http://ipxe.org/howto/winpe">Installing Windows using iPXE and wimboot</a></li>
-      <li><a href="http://technet.microsoft.com/en-us/library/cc722358%28v=ws.10%29.aspx">Deploying Windows over the network using WDS</a></li>
-      <li>
-       <a href="http://www.bromosapien.net:8080/media/index.php/Linux_Windows_PXE_Installation">Installing Windows 7 using PXELinux</a>
-       <ul>
-        <li><a href="https://www.youtube.com/watch?v=MvqiCxmzHYU">YouTube screencast - Part 1</a></li>
-        <li><a href="https://www.youtube.com/watch?v=eExcQv4ifJM">YouTube screencast - Part 2</a></li>
-        <li><a href="https://www.youtube.com/watch?v=jrwObHsRyK4">YouTube screencast - Part 3</a></li>
-       </ul>
-      </li>
-      <li><a href="http://blogoless.blogspot.it/2013/03/ipxe-server-on-centos-to-serve-smartos.html">How to set up a CentOS server used to netboot SmartOS</a></li>
-      <li><a href="http://etherboot.org/" title="No longer actively updated, but contains some good stuff not found elsewhere">Etherboot/gPXE Wiki</a></li>
-      <li><a href="http://www.kegel.com/linux/pxe.html">Dan Kegel's page about PXE and network booting</a></li>
-     </ul>
    </div>
   </div>
   <div class="row-fluid">

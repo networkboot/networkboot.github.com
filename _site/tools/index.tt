@@ -1,0 +1,20 @@
+[% WRAPPER page
+   root = ".."
+   title = "Network booting tools"
+   subtitle = "The programs that make network booting possible."
+%]
+  <div class="row-fluid">
+   <div class="span6">
+    <h2>Tools used in network booting</h2>
+    <ul>
+     <li><a href="http://ipxe.org">iPXE</a> - a scriptable network boot loader and firmware</li>
+     <li><a href="http://www.syslinux.org/wiki/index.php/PXELINUX">PXELINUX</a> - a flexible network boot loader</li>
+     <li><a href="http://ipxe.org/wimboot">wimboot</a> - boot Windows .wim files directly using iPXE</li>
+     <li><a href="http://rom-o-matic.eu/">rom-o-matic.eu</a> - a simple web interface for building an iPXE binary (beta)</li>
+     <li><a href="http://tftpd32.jounin.net/">Tftpd32</a> - a free DHCP and TFTP server for Windows</li>
+    </ul>
+   </div>
+   <div class="span6">
+   </div>
+  </div>
+[% END %]

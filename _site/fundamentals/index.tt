@@ -1,0 +1,54 @@
+[% WRAPPER page
+   root = ".."
+   title = "The fundamentals of network booting"
+   subtitle = "Understanding how it all fits together."
+%]
+  <div class="row-fluid">
+   <div class="span6">
+    <h2>What is network booting?</h2>
+    <p><a href="https://en.wikipedia.org/wiki/Network_boot">Network booting</a>,
+    or booting from LAN as it is also called, is a process which allows a computer
+    to start up and load an operating system or other program directly from the
+    network without any locally attached storage device, like a floppy, CDROM,
+    USB stick or hard drive.
+    </p>
+    <p>On <a href="https://en.wikipedia.org/wiki/X86_architecture">Intel
+    architecture</a> computers this is made possible with the <a
+    href="https://en.wikipedia.org/wiki/Preboot_Execution_Environment">PXE</a> standard.
+    PXE extends the features of the <a href="https://en.wikipedia.org/wiki/BIOS">BIOS</a>
+    so that it can run software directly from the network. PXE support is now so common that you
+    can expect it to be present in any reasonably modern computer that comes
+    with an <a href="https://en.wikipedia.org/wiki/Modular_connector#8P8C">Ethernet
+    jack</a> (commonly known as RJ45).
+    </p>
+    <p>This fact alone makes it possible to <a href="https://en.wikipedia.org/wiki/Booting">boot</a>
+    an Intel-based computer from the network without having to burn an EEPROM on your
+    network card, like you had to do in the past.
+    </p>
+   </div>
+   <div class="span6">
+    <h2>Core technologies</h2>
+    <ul>
+     <li><a href="https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol">DHCP</a> protocol, used to initialize network configuration for a client</li>
+     <li><a href="https://en.wikipedia.org/wiki/TFTP">TFTP</a> protocol, used to download a network boot program (NBP)</li>
+     <li><a href="https://en.wikipedia.org/wiki/Http">HTTP</a> protocol, used to download data from a web server</li>
+     <li><a href="https://en.wikipedia.org/wiki/Preboot_Execution_Environment">PXE</a> - a way to boot Intel computers using DHCP and TFTP</li>
+     <li><a href="https://en.wikipedia.org/wiki/UNDI">UNDI</a> - an API used by the PXE environment to generalize access to networking hardware</li>
+    </ul>
+   </div>
+   <div class="span6">
+    <h2>Other relevant protocols</h2>
+    <p>
+    All of these network protocols deal with how to access storage over they network
+    in different ways.
+    </p>
+    <ul>
+     <li><a href="https://en.wikipedia.org/wiki/ISCSI">iSCSI</a> - for block devices</li>
+     <li><a href="https://en.wikipedia.org/wiki/ATA_over_Ethernet">AoE</a> - for block devices (non-routable, local network only)</li>
+     <li><a href="https://en.wikipedia.org/wiki/Network_block_device">NBD</a> - for block devices</li>
+     <li><a href="https://en.wikipedia.org/wiki/Network_File_System">NFS</a> - for files (mostly used on Unix)</li>
+     <li><a href="https://en.wikipedia.org/wiki/Server_Message_Block">SMB/CIFS</a> - for files (mostly used on Windows)</li>
+    </ul>
+   </div>
+  </div>
+[% END %]
