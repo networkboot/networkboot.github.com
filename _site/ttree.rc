@@ -35,6 +35,10 @@ copy = \.png$
 copy = \.gif$ 
 copy = \.jpg$ 
 
+# Diagrams and vector drawings
+copy = \.dia$
+copy = \.svg$
+
 # Sound
 copy = \.mp3$ 
 copy = \.wav$ 
