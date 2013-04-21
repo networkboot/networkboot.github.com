@@ -161,18 +161,18 @@
      boot loaders for Linux systems are <strong>grub</strong> and
      <strong>syslinux</strong>.  Before the boot loader does this, it will
      usually also fetch additional data from a storage device, e.g.  drivers
-     and configuration files.  The kernel then switches into a more
-     sophisticated environment called <em>protected mode</em>.  At this
-     point, all of the devices and services provided by the BIOS and its
-     extensions are no longer available.  The operating system kernel will
-     then perform a complete discovery of the hardware attached to the
-     system (again) and start doing whatever it is programmed to do.  Any
-     driver required to operate the hardware must be in main memory at this
-     point, or you will be unable to access the hardware.  This requirement
-     is usually implemented using ramdisks, so that the kernel can be kept
-     modular and flexible.  In Linux they are called initrds, in Solaris
-     they go by the name boot archives, and in recent Windows versions they
-     are called wim files.</dd>
+     and configuration files.  Any program code required to operate the
+     hardware must be in main memory at this point, or you will be unable to
+     access the hardware.  This requirement is usually implemented using
+     ramdisks, so that the kernel can be kept modular and flexible.  In
+     Linux they are called initrds, in Solaris they go by the name boot
+     archives, and in recent Windows versions they are called wim files.
+     The operating system kernel will then perform a complete discovery of
+     the hardware attached to the system (again) and start doing whatever it
+     is programmed to do.  At this point, because another piece of code (the
+     kernel) is in direct control of the hardware, it would be very unwise
+     to switch control back to the BIOS, as hardware state has been modified
+     under its feet.</dd>
 
     </dl>
    </div>
