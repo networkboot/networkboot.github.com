@@ -109,7 +109,7 @@
      selected, either manually or automatically, control moves to the next
      step.</dd>
 
-     <dt>Start first boot service in BBS list</dt>
+     <dt>Start first boot service in BIOS boot services list</dt>
      <dd>During this stage, the program indicated by the boot service
      entry point is started. At this point, control passes to the boot
      service program, which starts its discovery process for a boot
