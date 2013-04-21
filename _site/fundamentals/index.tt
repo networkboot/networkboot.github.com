@@ -148,7 +148,7 @@
      and it will start doing whatever it is supposed to do. If the boot
      program detects a problem or wishes to, it can return back to the BIOS.
      This is not a very common thing to do for a boot program, as a lot of
-     BIOSes has buggy implementations for getting control back. The more
+     BIOSes have buggy implementations for getting control back. The more
      common method is just to display a message and hang, or reboot
      instantly. Since the boot program has full control over the computer it
      can make use of all the other devices the BIOS has detected to perform
