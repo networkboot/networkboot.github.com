@@ -12,6 +12,9 @@
      <li><a href="http://ipxe.org/wimboot">wimboot</a> - boot Windows .wim files directly using iPXE</li>
      <li><a href="http://rom-o-matic.eu/">rom-o-matic.eu</a> - a simple web interface for building an iPXE binary (beta)</li>
      <li><a href="http://tftpd32.jounin.net/">Tftpd32</a> - a free DHCP and TFTP server for Windows</li>
+     <li><a href="http://linux-iscsi.org/">LIO</a> - an open source iSCSI target for Linux</li>
+     <li><a href="http://www.microsoft.com/en-US/download/details.aspx?id=19867">Microsoft iSCSI Software Target</a> - a Windows Server 2008 component that provides iSCSI services to your network</li>
+     <li><a href="http://www.microsoft.com/en-us/server-cloud/system-center/configuration-manager-2012.aspx">System Center Configuration Manager (SCCM)</a> - a Microsoft product used to deploy and manage large groups of Windows computers</li>
     </ul>
    </div>
    <div class="span6">
