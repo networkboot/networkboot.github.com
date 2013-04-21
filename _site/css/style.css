@@ -72,3 +72,5 @@ body { margin: 0 0 120px; /* bottom = footer height */ }
 .feedburnerFeedBlock > ul > li h6 { font-size: 100%; }
 
 .menu { margin-top: 2em; }
+dd { margin-bottom: 0.75em; }
+img[src="bios_post_and_bbs.svg"] { margin-top: 4em; }

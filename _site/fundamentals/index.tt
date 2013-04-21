@@ -51,4 +51,138 @@
     </ul>
    </div>
   </div>
+  <div class="row-fluid">
+   <div class="span6">
+    <h2>The BIOS boot process</h2>
+    <p>
+     When your computer powers on and starts running your operating system,
+     it goes through a series of operations before it actually starts your
+     operating system.  Your operating system is a very sophisticated boot
+     program that takes total control over your computer.  But a boot
+     program can also be a fairly simple program, like a memory diagnostics
+     program, a hardware stability checker, or even a simple game like Pong
+     or Tetris.
+    </p>
+    <dl>
+     <dt>Power On</dt>
+     <dd>When you put power on your computer and press the <em>On</em> button
+     on the case.</dd>
+
+     <dt>Initialize hardware</dt>
+     <dd>The BIOS performs an inventory of all the components in the
+     computer, such as the CPU, memory chips, extension cards, storage
+     controllers, etc.</dd>
+
+     <dt>Run self-tests</dt>
+     <dd>All of the components discovered goes through a self-test
+     procedure, to ensure they are operating properly. If any of the
+     components fail, and that component is required for basic operation,
+     your computer will usually make a series of beeps and stop functioning.
+     When all problems have been fixed the BIOS will move on to the next
+     step in the process, which is to discover additional option ROMs.</dd>
+
+     <dt>Computer stopped</dt>
+     <dd>If your computer ends up in this state, it will either hang
+     forever, or it will turn itself off. This depends on how it entered
+     this state, and how your BIOS is configured to react when it reaches
+     this state.</dd>
+
+     <dt>Discover option ROMs</dt>
+     <dd>During this activity, your BIOS will discover all of the extensions
+     available. BIOS extensions are usually included in the firmware of your
+     BIOS or burned into an EEPROM or flash chip on one of your add-on
+     cards. During booting you can normally notice this as your IDE, SATA,
+     SCSI or other controllers finding the devices that are attached to them.
+     For network cards, this is usually when you see the prompt that lets
+     you specify what kind of boot protocol it should support (like PXE or
+     RPL). Option ROMs should usually not do anything fancy at this point,
+     except initialize hardware, run self-tests and set up boot service
+     (BBS) entry points. Once all extensions have been allowed to run,
+     control goes back to the BIOS. At this point it will continue with
+     discovery of available boot services.</dd>
+
+     <dt>Discover boot services (BBS)</dt>
+     <dd>At this point all the add-on cards and internal services of the
+     BIOS have been initialized and are ready to do work. The BIOS performs
+     an inventory of all the boot service entry points that are available
+     and orders them according to its configuration. It is quite common that
+     the user is given a choice of which boot service to try first by
+     pressing a hotkey. F12 is a common key to start a boot service offered
+     by a network card, but this varies among manufacturers. Once the first
+     boot service has been selected, either manually or automatically,
+     control moves to the next step.</dd>
+
+     <dt>Start first boot service in BBS list</dt>
+     <dd>During this stage, the program indicated by the boot service
+     entry point is started. At this point, control passes to the boot
+     service program, which starts its discovery process for a boot
+     program.</dd>
+
+     <dt>Boot service performs discovery for boot program</dt>
+
+     <dd>Different boot services go about looking for the boot program in
+     different ways.  A floppy controller will read the first sector of the
+     floppy and get ready to start that piece of code.  A hard-drive (HDD)
+     controller will usually read the master boot record (MBR) of the first
+     attached HDD and designate that as the boot program.  A network card
+     using the PXE standard will perform a DHCP request to find out its IP
+     address and location of boot program.  If a location is advertised, a
+     TFTP request is performed to fetch the boot program, commonly referred
+     to as a network boot program (NBP).  If the boot service was unable
+     to find a valid boot program, the boot service will exit and control
+     returns back to the BIOS, which will try the next boot service.  If a
+     boot program was successfully found, control will be handed over to
+     it.</dd>
+
+     <dt>Remove first boot service or put at bottom of list</dt>
+     <dd>The BIOS needs to cycle to the next boot service in its list.
+     Whether the BIOS discards the current boot service or adds it back at
+     the end of the list varies between BIOS vendors. Both methods have pros
+     and cons. The next step is to figure out if there are any more boot
+     services to try out.</dd>
+
+     <dt>More boot services available?</dt>
+     <dd>If there are more boot services available, the next one in line
+     will be started. If there are no more boot services the computer will
+     halt and perform its halt operation.</dd>
+
+     <dt>Start boot program</dt>
+     <dd>At this point the boot program is in full control of the computer,
+     and it will start doing whatever it is supposed to do. If the boot
+     program detects a problem or wishes to, it can return back to the BIOS.
+     This is not a very common thing to do for a boot program, as a lot of
+     BIOSes has buggy implementations for getting control back. The more
+     common method is just to display a message and hang, or reboot
+     instantly. Since the boot program has full control over the computer it
+     can make use of all the other devices the BIOS has detected to perform
+     whatever action it needs to.</dd>
+
+     <dt>Boot program running</dt>
+     <dd>The final part a boot program normally does, is to hand over
+     control to an operating system kernel.  A boot program that performs
+     this kind of action is usually called a <em>boot loader</em>.  Common
+     boot loaders for Linux systems are <strong>grub</strong> and
+     <strong>syslinux</strong>.  Before the boot loader does this, it will
+     usually also fetch additional data from a storage device, e.g.  drivers
+     and configuration files.  The kernel then switches into a more
+     sophisticated environment called <em>protected mode</em>.  At this
+     point, all of the devices and services provided by the BIOS and its
+     extensions are no longer available.  The operating system kernel will
+     then perform a complete discovery of the hardware attached to the
+     system (again) and start doing whatever it is programmed to do.  Any
+     driver required to operate the hardware must be in main memory at this
+     point, or you will be unable to access the hardware.  This requirement
+     is usually implemented using ramdisks, so that the kernel can be kept
+     modular and flexible.  In Linux they are called initrds, in Solaris
+     they go by the name boot archives, and in recent Windows versions they
+     are called wim files.</dd>
+
+    </dl>
+   </div>
+   <div class="span6">
+    <a href="bios_post_and_bbs.dia">
+     <img src="bios_post_and_bbs.svg" alt="BIOS POST and BBS process">
+    </a>
+   </div>
+  </div>
 [% END %]
