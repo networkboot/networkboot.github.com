@@ -187,25 +187,31 @@
    <div class="span6">
     <h2>How iPXE extends the network boot process</h2>
     <p>
-    <a href="http://ipxe.org/">iPXE</a> is a sophisticated boot program that
-    is capable of extending the traditional PXE network boot process in
-    several ways.  It can be <strong>flashed</strong> as an add-on card's option ROM, or it
-    can be loaded as a network boot program (NBP) from an existing PXE
-    option ROM via TFTP (this is called <strong>chainloading</strong>).  It is also possible
-    to include it as an option ROM inside your BIOS or load it from any
-    local storage media, like floppy, USB, CD or HDD.
+    <a href="http://ipxe.org/">iPXE</a> is a sophisticated boot
+    program that is capable of extending the traditional PXE network
+    boot process in several ways.  It can be <a
+    href="http://ipxe.org/howto/romburning">flashed</a> as an add-on
+    card's option ROM, or it can be loaded as a network boot program
+    (NBP) from an existing PXE option ROM via TFTP (this is called <a
+    href="http://ipxe.org/howto/chainloading">chainloading</a>).  It
+    is also possible to include it as an option ROM inside your BIOS
+    or load it from any local storage media, like floppy, USB, CD or
+    HDD.
     </p>
     <p>
-    Depending on how iPXE is configured, it can load additional boot programs
-    from several different sources in addition to TFTP. The most common way
-    is to use <strong>HTTP</strong> to load additional content using a standard web server.
-    If your web server supports range-requests, you can also use it to boot
-    floppies and <strong>CD images (ISOs)</strong> directly from the web server. <strong>FTP</strong> can also
-    be used in the same way. There is even support for encrypted
-    transmission with <strong>HTTPS</strong>. It is possible to configure it to only allow
-    execution of programs that have been signed. If you combine this with
-    ROM-burning you can have a network boot loader that will only load
-    <strong>trusted code</strong>.
+    Depending on how iPXE is configured, it can load additional boot
+    programs from several different sources in addition to TFTP. The
+    most common way is to use <strong>HTTP</strong> to load additional
+    content using a standard web server.  If your web server supports
+    range requests, you can also use it to boot floppies and
+    <strong>CD images (ISOs)</strong> directly from the web
+    server. <strong>FTP</strong> can also be used in the same
+    way. There is even support for encrypted transmission with <a
+    href="http://ipxe.org/crypto">HTTPS</a>. It is possible to
+    configure it to only allow execution of programs that have been
+    signed. If you combine this with ROM-burning you can have a
+    network boot loader that will load only <a
+    href="http://ipxe.org/cmd/imgverify">trusted code</a>.
     </p>
     <p>
     One of the most interesting features iPXE enables, is to boot a computer
@@ -216,10 +222,13 @@
     to iSCSI.
     </p>
     <p>
-    The final feature that makes iPXE so impressive, is that it also has a
-    very advanced <strong>scripting language</strong> and text-based <strong>menu system</strong>.  These
-    features enable you to make dynamic boot environments without the need
-    to know a server-side scripting language like PHP, Perl or Python.
+    The final feature that makes iPXE so impressive, is that it also
+    has a very advanced <a href="http://ipxe.org/scripting">scripting
+    language</a> and
+    text-based <a href="http://ipxe.org/cmd/choose">menu system</a>.
+    These features enable you to make dynamic boot environments
+    without the need to know a server-side scripting language like
+    PHP, Perl or Python.
     </p>
    </div>
    <div class="span6">
