@@ -183,4 +183,46 @@
     <a href="bios_post_and_bbs.dia">Download diagram source code</a>
    </div>
   </div>
+  <div class="row-fluid">
+   <div class="span6">
+    <h2>How iPXE extends the network boot process</h2>
+    <p>
+    <a href="http://ipxe.org/">iPXE</a> is a sophisticated boot program that
+    is capable of extending the traditional PXE network boot process in
+    several ways.  It can be <strong>flashed</strong> as an add-on card's option ROM, or it
+    can be loaded as a network boot program (NBP) from an existing PXE
+    option ROM via TFTP (this is called <strong>chainloading</strong>).  It is also possible
+    to include it as an option ROM inside your BIOS or load it from any
+    local storage media, like floppy, USB, CD or HDD.
+    </p>
+    <p>
+    Depending on how iPXE is configured, it can load additional boot programs
+    from several different sources in addition to TFTP. The most common way
+    is to use <strong>HTTP</strong> to load additional content using a standard web server.
+    If your web server supports range-requests, you can also use it to boot
+    floppies and <strong>CD images (ISOs)</strong> directly from the web server. <strong>FTP</strong> can also
+    be used in the same way. There is even support for encrypted
+    transmission with <strong>HTTPS</strong>. It is possible to configure it to only allow
+    execution of programs that have been signed. If you combine this with
+    ROM-burning you can have a network boot loader that will only load
+    <strong>trusted code</strong>.
+    </p>
+    <p>
+    One of the most interesting features iPXE enables, is to boot a computer
+    without an iSCSI host bus adapter from an iSCSI volume.  This is
+    possible, because iPXE implements a full-featured software-based <strong>iSCSI
+    initiator</strong>.  It even supports CHAP authentication!  For operating systems
+    that supports it, you can also use <strong>AoE</strong> (ATA Over Ethernet) in addition
+    to iSCSI.
+    </p>
+    <p>
+    The final feature that makes iPXE so impressive, is that it also has a
+    very advanced <strong>scripting language</strong> and text-based <strong>menu system</strong>.  These
+    features enable you to make dynamic boot environments without the need
+    to know a server-side scripting language like PHP, Perl or Python.
+    </p>
+   </div>
+   <div class="span6">
+   </div>
+  </div>
 [% END %]
