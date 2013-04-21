@@ -7,10 +7,11 @@
    <div class="span6">
     <h2>Installing Windows from the network</h2>
      <ul>
-      <li><a href="http://ipxe.org/howto/winpe">Installing Windows using iPXE and wimboot</a></li>
-      <li><a href="http://technet.microsoft.com/en-us/library/cc722358%28v=ws.10%29.aspx">Deploying Windows over the network using WDS</a></li>
+      <li><a href="http://ipxe.org/howto/winpe">Using iPXE and wimboot to run Windows PE</a> (recommended)</li>
+      <li><a href="http://ipxe.org/howto/sccm">Using iPXE and wimboot to run System Center Configuration Manager (SCCM)</a> (for large environments)</li>
+      <li><a href="http://technet.microsoft.com/en-us/library/cc722358%28v=ws.10%29.aspx">Using Windows Deployment Services (WDS)</a> (official Microsoft method)</li>
       <li>
-       <a href="http://www.bromosapien.net:8080/media/index.php/Linux_Windows_PXE_Installation">Installing Windows 7 using PXELinux</a>
+       <a href="http://www.bromosapien.net:8080/media/index.php/Linux_Windows_PXE_Installation">Using PXELinux</a>
        <ul>
         <li><a href="https://www.youtube.com/watch?v=MvqiCxmzHYU">YouTube screencast - Part 1</a></li>
         <li><a href="https://www.youtube.com/watch?v=eExcQv4ifJM">YouTube screencast - Part 2</a></li>
@@ -22,9 +23,10 @@
    <div class="span6">
     <h2>Running SmartOS from the network</h2>
      <ul>
-      <li><a href="http://wiki.smartos.org/display/DOC/PXE+Booting+SmartOS">Official SmartOS network booting documentation</a></li>
-      <li><a href="http://nahamu.github.io/2011/08/17/smartos-pxe.html">Using PXELinux to network-boot SmartOS</a></li>
-      <li><a href="http://blogoless.blogspot.it/2013/03/ipxe-server-on-centos-to-serve-smartos.html">How to set up a CentOS server used to netboot SmartOS</a></li>
+      <li><a href="http://wiki.smartos.org/display/DOC/PXE+Booting+SmartOS">Official SmartOS network booting documentation</a> (recommended)</li>
+      <li><a href="http://nahamu.github.io/2011/08/17/smartos-pxe.html">Using PXELinux to netboot SmartOS</a></li>
+      <li><a href="http://blog.smartcore.net.au/smartos-network-boot-with-pxe/">Using FreeBSD 9 and PXELinux to boot SmartOS</a></li>
+      <li><a href="http://blogoless.blogspot.it/2013/03/ipxe-server-on-centos-to-serve-smartos.html">Using CentOS and iPXE to netboot SmartOS</a></li>
      </ul>
    </div>
   </div>
