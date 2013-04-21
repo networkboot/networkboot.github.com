@@ -7,158 +7,158 @@
     <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="76.0578,401.64 81.0578,411.64 86.0578,401.64 "/>
   </g>
   <g>
-    <ellipse style="fill: #ffffff" cx="-98.4631" cy="530.242" rx="15" ry="15"/>
-    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="-98.4631" cy="530.242" rx="15" ry="15"/>
-    <ellipse style="fill: #000000" cx="-98.4631" cy="530.242" rx="10" ry="10"/>
+    <ellipse style="fill: #ffffff" cx="-98.4632" cy="530.242" rx="15" ry="15"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="-98.4632" cy="530.242" rx="15" ry="15"/>
+    <ellipse style="fill: #000000" cx="-98.4632" cy="530.242" rx="10" ry="10"/>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-98.4631,654.081 -98.4631,600.241 -98.4631,600.241 -98.4631,550.718 "/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-93.4631,558.482 -98.4631,548.482 -103.463,558.482 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-98.4632,654.081 -98.4632,600.242 -98.4632,600.242 -98.4632,550.719 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-93.4632,558.483 -98.4632,548.483 -103.463,558.483 "/>
   </g>
   <g>
-    <polygon style="fill: #ffffff" points="61.0578,673.083 81.0578,653.083 101.058,673.083 81.0578,693.083 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="61.0578,673.083 81.0578,653.083 101.058,673.083 81.0578,693.083 "/>
+    <polygon style="fill: #ffffff" points="61.0578,673.082 81.0578,653.082 101.058,673.082 81.0578,693.082 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="61.0578,673.082 81.0578,653.082 101.058,673.082 81.0578,693.082 "/>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="81.0578,449.876 81.0578,459.876 81.0578,483.876 81.0578,489.404 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="81.0578,449.876 81.0578,471.876 81.0578,471.876 81.0578,489.404 "/>
     <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="76.0578,481.64 81.0578,491.64 86.0578,481.64 "/>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="81.0578,529.876 81.0578,539.876 81.0578,563.876 81.0578,569.404 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="81.0578,529.876 81.0578,551.876 81.0578,551.876 81.0578,569.404 "/>
     <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="76.0578,561.64 81.0578,571.64 86.0578,561.64 "/>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="81.0578,609.876 81.0578,619.876 81.0578,643.083 81.0578,648.611 "/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="76.0578,640.847 81.0578,650.847 86.0578,640.847 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="81.0578,609.876 81.0578,619.876 81.0578,643.082 81.0578,648.61 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="76.0578,640.846 81.0578,650.846 86.0578,640.846 "/>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #ff0000" points="61.0578,673.083 20.3167,673.083 20.3167,673.083 -23.219,673.083 "/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #ff0000" points="-15.4551,668.083 -25.4551,673.083 -15.4551,678.083 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-9.73469" y="648.169">[fatal problems found]</text>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #ff0000" points="61.0578,673.082 20.3166,673.082 20.3166,673.082 -23.2191,673.082 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #ff0000" points="-15.4551,668.082 -25.4551,673.082 -15.4551,678.082 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-9.73468" y="648.17">[fatal problems found]</text>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #00ff00" points="101.058,673.083 148.158,673.083 148.158,673.083 193.488,673.083 "/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #00ff00" points="185.724,678.083 195.724,673.083 185.724,668.083 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="176.037" y="648.169">[no problems found]</text>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #00ff00" points="101.058,673.082 148.158,673.082 148.158,671.137 155.564,671.137 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #00ff00" points="147.8,676.137 157.8,671.137 147.8,666.137 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="176.037" y="647.198">[no problems found]</text>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="278.46,691.083 278.46,701.083 278.46,723.876 278.46,729.404 "/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="273.46,721.64 278.46,731.64 283.46,721.64 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="278.811,689.137 278.811,711.02 278.826,711.02 278.826,728.431 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="273.826,720.668 278.826,730.668 283.826,720.668 "/>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="278.46,769.876 278.46,779.876 278.46,803.669 278.46,809.197 "/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="273.46,801.433 278.46,811.433 283.46,801.433 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="278.826,768.904 278.826,791.286 278.46,791.286 278.46,809.196 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="273.46,801.432 278.46,811.432 283.46,801.432 "/>
   </g>
   <g>
     <polygon style="fill: #ffffff" points="258.46,1045.88 278.46,1025.88 298.46,1045.88 278.46,1065.88 "/>
     <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="258.46,1045.88 278.46,1025.88 298.46,1045.88 278.46,1065.88 "/>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="278.46,865.669 278.46,875.669 278.46,903.876 278.46,909.404 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="278.46,865.668 278.46,875.668 278.46,903.876 278.46,909.404 "/>
     <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="273.46,901.64 278.46,911.64 283.46,901.64 "/>
   </g>
   <g>
     <rect style="fill: #ffffff" x="27.2828" y="573.876" width="107.55" height="36" rx="20" ry="20"/>
     <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="27.2828" y="573.876" width="107.55" height="36" rx="20" ry="20"/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="81.0578" y="595.776">
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="81.0578" y="595.776">
       <tspan x="81.0578" y="595.776">Run self-tests</tspan>
     </text>
   </g>
   <g>
     <rect style="fill: #ffffff" x="11.8578" y="493.876" width="138.4" height="36" rx="20" ry="20"/>
     <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="11.8578" y="493.876" width="138.4" height="36" rx="20" ry="20"/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="81.0578" y="515.776">
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="81.0578" y="515.776">
       <tspan x="81.0578" y="515.776">Initialize hardware</tspan>
     </text>
   </g>
   <g>
     <rect style="fill: #ffffff" x="40.3578" y="413.876" width="81.4" height="36" rx="20" ry="20"/>
     <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="40.3578" y="413.876" width="81.4" height="36" rx="20" ry="20"/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="81.0578" y="435.776">
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="81.0578" y="435.776">
       <tspan x="81.0578" y="435.776">Power On</tspan>
     </text>
   </g>
   <g>
-    <rect style="fill: #ffff00" x="197.96" y="655.083" width="161" height="36" rx="20" ry="20"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="197.96" y="655.083" width="161" height="36" rx="20" ry="20"/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="278.46" y="676.983">
-      <tspan x="278.46" y="676.983">Discover option ROMs</tspan>
+    <rect style="fill: #ffff00" x="160.036" y="653.137" width="237.55" height="36" rx="20" ry="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="160.036" y="653.137" width="237.55" height="36" rx="20" ry="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="278.811" y="675.037">
+      <tspan x="278.811" y="675.037">Discover built-in bootable devices</tspan>
     </text>
   </g>
   <g>
-    <rect style="fill: #ffffff" x="175.96" y="733.876" width="205" height="36" rx="20" ry="20"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="175.96" y="733.876" width="205" height="36" rx="20" ry="20"/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="278.46" y="755.776">
-      <tspan x="278.46" y="755.776">Discover boot services (BBS)</tspan>
+    <rect style="fill: #ffff00" x="198.326" y="732.904" width="161" height="36" rx="20" ry="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="198.326" y="732.904" width="161" height="36" rx="20" ry="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="278.826" y="754.804">
+      <tspan x="278.826" y="754.804">Discover option ROMs</tspan>
     </text>
   </g>
   <g>
-    <rect style="fill: #ffffff" x="211.36" y="813.669" width="134.2" height="52" rx="20" ry="20"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="211.36" y="813.669" width="134.2" height="52" rx="20" ry="20"/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="278.46" y="835.569">
-      <tspan x="278.46" y="835.569">Start first boot</tspan>
-      <tspan x="278.46" y="851.569">service in BBS list</tspan>
+    <rect style="fill: #ffffff" x="211.36" y="813.668" width="134.2" height="52" rx="20" ry="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="211.36" y="813.668" width="134.2" height="52" rx="20" ry="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="278.46" y="835.568">
+      <tspan x="278.46" y="835.568">Start first boot</tspan>
+      <tspan x="278.46" y="851.568">service in BBS list</tspan>
     </text>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #00ff00" points="278.46,1065.88 278.46,1075.88 278.46,1103.88 278.46,1109.4 "/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #00ff00" points="273.46,1101.64 278.46,1111.64 283.46,1101.64 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="200.625" y="1093.48">[boot program found]</text>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #00ff00" points="278.46,1065.88 278.46,1089.88 278.459,1089.88 278.459,1109.4 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #00ff00" points="273.459,1101.64 278.459,1111.64 283.459,1101.64 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="200.624" y="1093.48">[boot program found]</text>
   </g>
   <g>
-    <rect style="fill: #ffffff" x="206.885" y="1113.88" width="143.15" height="36" rx="20" ry="20"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="206.885" y="1113.88" width="143.15" height="36" rx="20" ry="20"/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="278.46" y="1135.78">
-      <tspan x="278.46" y="1135.78">Start boot program</tspan>
+    <rect style="fill: #ffffff" x="206.884" y="1113.88" width="143.15" height="36" rx="20" ry="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="206.884" y="1113.88" width="143.15" height="36" rx="20" ry="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="278.459" y="1135.78">
+      <tspan x="278.459" y="1135.78">Start boot program</tspan>
     </text>
   </g>
   <g>
     <rect style="fill: #ffffff" x="-190.688" y="1019.88" width="184.45" height="52" rx="20" ry="20"/>
     <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-190.688" y="1019.88" width="184.45" height="52" rx="20" ry="20"/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-98.4631" y="1041.78">
-      <tspan x="-98.4631" y="1041.78">Remove first boot service</tspan>
-      <tspan x="-98.4631" y="1057.78">or put at bottom of list</tspan>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-98.4632" y="1041.78">
+      <tspan x="-98.4632" y="1041.78">Remove first boot service</tspan>
+      <tspan x="-98.4632" y="1057.78">or put at bottom of list</tspan>
     </text>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #ff0000" points="258.46,1045.88 248.46,1045.88 3.76185,1045.88 -1.76601,1045.88 "/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #ff0000" points="5.99792,1040.88 -4.00208,1045.88 5.99792,1050.88 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #ff0000" points="258.46,1045.88 248.46,1045.88 3.7618,1045.88 -1.76606,1045.88 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #ff0000" points="5.99787,1040.88 -4.00213,1045.88 5.99787,1050.88 "/>
     <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="126.179" y="1031.32">[boot program not found]</text>
   </g>
   <g>
     <rect style="fill: #ffffff" x="-169.238" y="913.876" width="141.55" height="52" rx="20" ry="20"/>
     <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-169.238" y="913.876" width="141.55" height="52" rx="20" ry="20"/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-98.4631" y="935.776">
-      <tspan x="-98.4631" y="935.776">More boot services</tspan>
-      <tspan x="-98.4631" y="951.776">available?</tspan>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-98.4632" y="935.776">
+      <tspan x="-98.4632" y="935.776">More boot services</tspan>
+      <tspan x="-98.4632" y="951.776">available?</tspan>
     </text>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-98.4631,1019.88 -98.4631,1009.88 -98.4631,975.876 -98.4631,970.348 "/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-93.4631,978.112 -98.4631,968.112 -103.463,978.112 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-98.4632,1019.88 -98.4632,1009.88 -98.4632,975.876 -98.4632,970.348 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-93.4632,978.112 -98.4632,968.112 -103.463,978.112 "/>
   </g>
   <g>
-    <polygon style="fill: #ffffff" points="-118.463,839.669 -98.4631,819.669 -78.4631,839.669 -98.4631,859.669 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-118.463,839.669 -98.4631,819.669 -78.4631,839.669 -98.4631,859.669 "/>
+    <polygon style="fill: #ffffff" points="-118.463,839.668 -98.4632,819.668 -78.4632,839.668 -98.4632,859.668 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-118.463,839.668 -98.4632,819.668 -78.4632,839.668 -98.4632,859.668 "/>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-98.4631,913.876 -98.4631,903.876 -98.4631,869.669 -98.4631,864.141 "/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-93.4631,871.905 -98.4631,861.905 -103.463,871.905 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-98.4632,913.876 -98.4632,903.876 -98.4632,869.668 -98.4632,864.14 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-93.4632,871.904 -98.4632,861.904 -103.463,871.904 "/>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #00ff00" points="-78.4631,839.669 -68.4631,839.669 201.36,839.669 206.888,839.669 "/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #00ff00" points="199.124,844.669 209.124,839.669 199.124,834.669 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="56.4484" y="829.669">[yes]</text>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #00ff00" points="-78.4632,839.668 -68.4632,839.668 201.36,839.668 206.888,839.668 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #00ff00" points="199.124,844.668 209.124,839.668 199.124,834.668 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="56.4484" y="829.668">[yes]</text>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #ff0000" points="-98.4631,819.669 -98.4631,809.669 -98.4631,702.092 -98.4631,696.564 "/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #ff0000" points="-93.4631,704.328 -98.4631,694.328 -103.463,704.328 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #ff0000" points="-98.4632,819.668 -98.4632,809.668 -98.4632,702.091 -98.4632,696.563 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #ff0000" points="-93.4632,704.327 -98.4632,694.327 -103.463,704.327 "/>
     <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-117.688" y="762.876">[no]</text>
   </g>
   <g>
     <rect style="fill: #c8c8ff" x="164.885" y="913.876" width="227.15" height="52" rx="20" ry="20"/>
     <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="164.885" y="913.876" width="227.15" height="52" rx="20" ry="20"/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="278.46" y="935.776">
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="278.46" y="935.776">
       <tspan x="278.46" y="935.776">Boot service performs discovery</tspan>
       <tspan x="278.46" y="951.776">for boot program </tspan>
     </text>
@@ -168,44 +168,44 @@
     <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="273.46,1013.64 278.46,1023.64 283.46,1013.64 "/>
   </g>
   <g>
-    <rect style="fill: #ffffff" x="-168.238" y="655.083" width="139.55" height="36" rx="10" ry="10"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-168.238" y="655.083" width="139.55" height="36" rx="10" ry="10"/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-98.4631" y="676.983">
-      <tspan x="-98.4631" y="676.983">Computer stopped</tspan>
+    <rect style="fill: #ffffff" x="-168.238" y="655.082" width="139.55" height="36" rx="10" ry="10"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-168.238" y="655.082" width="139.55" height="36" rx="10" ry="10"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-98.4632" y="676.982">
+      <tspan x="-98.4632" y="676.982">Computer stopped</tspan>
     </text>
   </g>
   <g>
     <rect style="fill: #ffffff" x="0.107817" y="1201.97" width="161.9" height="36" rx="10" ry="10"/>
     <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="0.107817" y="1201.97" width="161.9" height="36" rx="10" ry="10"/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="81.0578" y="1223.87">
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="81.0578" y="1223.87">
       <tspan x="81.0578" y="1223.87">Boot program running</tspan>
     </text>
   </g>
   <g>
     <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #00ff00" points="258.46,1219.97 248.46,1219.97 173.013,1219.97 167.485,1219.97 "/>
     <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #00ff00" points="175.249,1214.97 165.249,1219.97 175.249,1224.97 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="210.187" y="1205.49">[started]</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="210.186" y="1205.49">[started]</text>
   </g>
   <g>
-    <ellipse style="fill: #ffffff" cx="-96.6881" cy="1219.97" rx="15" ry="15"/>
-    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="-96.6881" cy="1219.97" rx="15" ry="15"/>
-    <ellipse style="fill: #000000" cx="-96.6881" cy="1219.97" rx="10" ry="10"/>
+    <ellipse style="fill: #ffffff" cx="-96.6882" cy="1219.97" rx="15" ry="15"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="-96.6882" cy="1219.97" rx="15" ry="15"/>
+    <ellipse style="fill: #000000" cx="-96.6882" cy="1219.97" rx="10" ry="10"/>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="0.107817,1219.97 -9.89218,1219.97 -70.6803,1219.97 -76.2082,1219.97 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="0.107817,1219.97 -9.89218,1219.97 -70.6804,1219.97 -76.2083,1219.97 "/>
     <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-68.4443,1214.97 -78.4443,1219.97 -68.4443,1224.97 "/>
   </g>
   <g>
     <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #ff0000" points="298.46,1219.97 422.035,1219.97 422.035,939.876 396.507,939.876 "/>
     <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #ff0000" points="404.271,934.876 394.271,939.876 404.271,944.876 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="354.979" y="1202.75">[program returned]</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="354.981" y="1202.75">[program returned]</text>
   </g>
   <g>
     <polygon style="fill: #ffffff" points="258.46,1219.97 278.46,1199.97 298.46,1219.97 278.46,1239.97 "/>
     <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="258.46,1219.97 278.46,1199.97 298.46,1219.97 278.46,1239.97 "/>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="278.46,1149.88 278.46,1159.88 278.46,1189.97 278.46,1195.5 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="278.459,1149.88 278.459,1174.93 278.46,1174.93 278.46,1195.5 "/>
     <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="273.46,1187.74 278.46,1197.74 283.46,1187.74 "/>
   </g>
 </svg>

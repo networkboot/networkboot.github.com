@@ -150,30 +150,27 @@
      this state, and how your BIOS is configured to react when it reaches
      this state.</dd>
 
-     <dt>Discover option ROMs</dt>
+     <dt>Discover built-in devices and option ROMs</dt>
      <dd>During this activity, your BIOS will discover all of the extensions
-     available. BIOS extensions are usually included in the firmware of your
-     BIOS or burned into an EEPROM or flash chip on one of your add-on
-     cards. During booting you can normally notice this as your IDE, SATA,
-     SCSI or other controllers finding the devices that are attached to them.
-     For network cards, this is usually when you see the prompt that lets
-     you specify what kind of boot protocol it should support (like PXE or
-     RPL). Option ROMs should usually not do anything fancy at this point,
-     except initialize hardware, run self-tests and set up boot service
-     (BBS) entry points. Once all extensions have been allowed to run,
-     control goes back to the BIOS. At this point it will continue with
-     discovery of available boot services.</dd>
-
-     <dt>Discover boot services (BBS)</dt>
-     <dd>At this point all the add-on cards and internal services of the
-     BIOS have been initialized and are ready to do work. The BIOS performs
-     an inventory of all the boot service entry points that are available
-     and orders them according to its configuration. It is quite common that
-     the user is given a choice of which boot service to try first by
-     pressing a hotkey. F12 is a common key to start a boot service offered
-     by a network card, but this varies among manufacturers. Once the first
-     boot service has been selected, either manually or automatically,
-     control moves to the next step.</dd>
+     available.  BIOS extensions are usually included in the firmware of
+     your BIOS or burned into an EEPROM or flash chip on one of your add-on
+     cards.  During booting you can normally notice this as your IDE, SATA,
+     SCSI or other controllers finding the devices that are attached to
+     them.  For network cards, this is usually when you see the prompt that
+     lets you specify what kind of boot protocol it should support (like PXE
+     or RPL).  Option ROMs should usually not do anything fancy at this
+     point, except initialize hardware, run self-tests and set up boot
+     service (BBS) entry points.  Once all extensions have been allowed to
+     run and add their boot service entry points, control goes back to the
+     BIOS.  At this point all the add-on cards and internal services of the
+     BIOS have been initialized and are ready to do work.  All of the boot
+     service entry points are ordered according to the configuration
+     specified in the BIOS.  It is quite common that the user is given a
+     choice of which boot service to try first by pressing a hotkey.  F12 is
+     a common key to start a boot service offered by a network card, but
+     this varies among manufacturers.  Once the first boot service has been
+     selected, either manually or automatically, control moves to the next
+     step.</dd>
 
      <dt>Start first boot service in BBS list</dt>
      <dd>During this stage, the program indicated by the boot service
@@ -243,9 +240,10 @@
     </dl>
    </div>
    <div class="span6">
-    <a href="bios_post_and_bbs.dia">
+    <a href="bios_post_and_bbs.svg">
      <img src="bios_post_and_bbs.svg" alt="BIOS POST and BBS process">
     </a>
+    <a href="bios_post_and_bbs.dia">Download diagram source code</a>
    </div>
   </div>
   <div class="row-fluid">
