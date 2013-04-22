@@ -212,7 +212,7 @@
     without an iSCSI host bus adapter from an iSCSI volume.  This is
     possible, because iPXE implements a full-featured software-based <strong>iSCSI
     initiator</strong>.  It even supports CHAP authentication!  For operating systems
-    that supports it, you can also use <strong>AoE</strong> (ATA Over Ethernet) in addition
+    that support it, you can also use <strong>AoE</strong> (ATA Over Ethernet) in addition
     to iSCSI.
     </p>
     <p>
