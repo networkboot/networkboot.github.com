@@ -21,6 +21,26 @@
      </ul>
    </div>
    <div class="span6">
+    <h2>How to switch to another iSCSI boot network card in Windows after installation</h2>
+     <blockquote>
+       Open regedit, browse to
+      <strong>HKLM\&#8203;System\&#8203;CurrentControlSet\&#8203;Control\&#8203;Network\&#8203;{4d36e974-e325-11ce-bfc1-08002be10318}\&#8203;{B70D6460-3635-4D42-B866-B8AB1A24454C}\&#8203;Ndi</strong>
+      and change <code>FilterRunType</code> to <code>2</code> instead of
+      <code>1</code>.  I made this change and then it was able to boot right
+      into the system using the new card.  It says that you are supposed to
+      change it back to 1 after boot and then modify the NDIS
+      LWF filters on your network cards, but I didn't bother with that and
+      just left it at 2.  If I have any problems with it, I'll
+      go from there.<small>From Steve Cross on the iPXE mailing-list 2013-07-02.</small>
+     </blockquote>
+     <ul>
+      <li><a href="http://support.microsoft.com/kb/2507616">Microsoft knowledgebase article on how to avoid the 0x0000007B STOP error.</a></li>
+      <li><a href="http://lists.ipxe.org/pipermail/ipxe-devel/2013-July/002620.html">Thread on the iPXE mailing-list about the issue.</a></li>
+     </ul>
+   </div>
+  </div>
+  <div class="row-fluid">
+   <div class="span6">
     <h2>Running SmartOS from the network</h2>
      <ul>
       <li><a href="http://wiki.smartos.org/display/DOC/PXE+Booting+SmartOS">Official SmartOS network booting documentation</a> (recommended)</li>
@@ -28,6 +48,8 @@
       <li><a href="http://blog.smartcore.net.au/smartos-network-boot-with-pxe/">Using FreeBSD 9 and PXELinux to boot SmartOS</a></li>
       <li><a href="http://blogoless.blogspot.it/2013/03/ipxe-server-on-centos-to-serve-smartos.html">Using CentOS and iPXE to netboot SmartOS</a></li>
      </ul>
+   </div>
+   <div class="span6">
    </div>
   </div>
 [% END %]
