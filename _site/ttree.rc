@@ -28,6 +28,7 @@ ignore = ^#
 ignore = ^ttree\.rc$
 ignore = ^compile$
 ignore = ^_templates
+ignore = ^_work
 
 # ditto for things that should be copied rather than processed.
 # Images
