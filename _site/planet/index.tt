@@ -1,19 +1,17 @@
+[% SET feed_url = "https://feeds.feedburner.com/NetworkBoot" -%]
 [% WRAPPER page
    root = ".."
    title = "NetworkBoot.org blog roll"
    subtitle = "A collection of blog posts by network booting enthusiasts."
-   feed = "http://pipes.yahoo.com/pipes/pipe.run?_id=1524478dd20222ce216bcaf133d6ef49&_render=rss"
+   feed = feed_url
    feed_title = "NetworkBoot.org blog roll feed"
 %]
   <div class="row-fluid">
    <div class="span6">
     <h2>Blog posts</h2>
     <!-- Yahoo Pipes feed improved with FeedBurner -->
-    <script src="http://feeds.feedburner.com/NetworkBoot?format=sigpro" type="text/javascript"></script>
-    <noscript><p>Subscribe to RSS headline updates from: <a href="http://feeds.feedburner.com/NetworkBoot"></a><br/>Powered by FeedBurner</p></noscript>
-[%# This is the original JavaScript version from Yahoo Pipes
-    <script src="http://l.yimg.com/a/i/us/pps/listbadge_1.6.js">{"pipe_id":"1524478dd20222ce216bcaf133d6ef49","_btype":"list","width":"97%","height":"100%"}</script>
-%]
+    <script src="[% feed_url %]?format=sigpro" type="text/javascript"></script>
+    <noscript><p>Subscribe to RSS headline updates from: <a href="[% feed_url %]"></a><br/>Powered by FeedBurner</p></noscript>
    </div>
    <div class="span6">
     <h2>Becoming a contributor</h2>
@@ -27,8 +25,7 @@
      or Atom feed for posts to be included here. Any good blogging system
      should already have this feature.
     </p>
-[%# Original Yahoo Pipes URL is: http://pipes.yahoo.com/pipes/pipe.run?_id=1524478dd20222ce216bcaf133d6ef49&_render=rss %]
-    <a class="btn" href="http://feeds.feedburner.com/NetworkBoot">
+    <a class="btn" href="[% feed_url %]">
      Add this feed to your news reader
     </a>
     <h2>Contributors</h2>
