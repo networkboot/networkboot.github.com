@@ -165,7 +165,7 @@
      hardware must be in main memory at this point, or you will be unable to
      access the hardware.  This requirement is usually implemented using
      ramdisks, so that the kernel can be kept modular and flexible.  In
-     Linux they are called initrds, in Solaris they go by the name boot
+     Linux they are called initial ramdisks (initrds), in Solaris they go by the name boot
      archives, and in recent Windows versions they are called wim files.
      The operating system kernel will then perform a complete discovery of
      the hardware attached to the system (again) and start doing whatever it
