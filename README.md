@@ -19,3 +19,5 @@ Source files have the suffix `.tt`. See them all with
 ```
 find . -name \*.tt
 ```
+
+Upon _git merge requests_ do include the updated generated files.
