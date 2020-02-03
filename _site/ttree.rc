@@ -40,6 +40,9 @@ copy = \.jpg$
 copy = \.dia$
 copy = \.svg$
 
+# Message Sequence Charts
+copy = \.msc$
+
 # Sound
 copy = \.mp3$ 
 copy = \.wav$ 
