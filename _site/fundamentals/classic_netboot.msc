@@ -1,0 +1,24 @@
+# Message Sequence Chart
+msc {
+  arcgradient = 8;
+
+  client,"tftp srv","bootp srv";
+
+  ||| ;
+  client->"bootp srv" [ label = "bootp request" ] ;
+  "bootp srv"->client [ label = "bootp reply" ] ;
+  ||| ;
+  ||| ;
+  client->"tftp srv"  [ label = "tftp request" ];
+  "tftp srv"->client  [ label = "first tftp packet" ];
+  client->"tftp srv"  [ label = "request second packet" ];
+  "tftp srv"->client  [ label = "second tftp packet" ];
+  ... ;
+  ... ;
+  client->"tftp srv"  [ label = "request next packet" ];
+  "tftp srv"->client  [ label = "next tftp packet"];
+  client->"tftp srv"  [ label = "request next packet" ];
+  "tftp srv"->client  [ label = "last tftp packet"];
+}
+
+# visit http://www.mcternan.co.uk/mscgen/ for more information
