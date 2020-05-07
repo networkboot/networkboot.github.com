@@ -10,7 +10,7 @@
      <li><a href="http://ipxe.org">iPXE</a> - a scriptable network boot loader and firmware</li>
      <li><a href="http://www.syslinux.org/wiki/index.php/PXELINUX">PXELINUX</a> - a flexible network boot loader</li>
      <li><a href="http://ipxe.org/wimboot">wimboot</a> - boot Windows .wim files directly using iPXE</li>
-     <li><a href="http://rom-o-matic.eu/">rom-o-matic.eu</a> - a simple web interface for building an iPXE binary (beta)</li>
+     <li><a href="https://rom-o-matic.dev/">rom-o-matic.dev</a> - a simple web interface for building an iPXE binary</li>
      <li><a href="http://tftpd32.jounin.net/">Tftpd32</a> - a free DHCP and TFTP server for Windows</li>
      <li><a href="http://linux-iscsi.org/">LIO</a> - an open source iSCSI target for Linux</li>
      <li><a href="https://github.com/puppetlabs/Razor">Puppet Labs Razor</a> - a provisioning tool used to manage bare-metal deployments for Puppet (<a href="https://www.youtube.com/watch?v=cR1bOg0IU5U">Razor talk at PuppetConf 2012</a>)</li>
