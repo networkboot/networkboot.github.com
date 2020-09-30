@@ -37,7 +37,7 @@ body { margin: 0 0 120px; /* bottom = footer height */ }
   border: 1px solid #faa;
   color: #fff;
   display: block;
-  font: bold 81.25% 'Helvetiva Neue', Helvetica, Arial, sans-serif;
+  font: bold 81.25% 'Helvetiva Neue', Helvetica, Arial, sans-serif, times ,optima;
   margin: 0.05em 0 0.075em 0;
   padding: 0.5em 3.5em;
   text-align: center;
@@ -51,8 +51,8 @@ body { margin: 0 0 120px; /* bottom = footer height */ }
   top: 0;
   right: 0;
   overflow: hidden;
-  width: 141px;
-  height: 141px;
+  width: 140px;
+  height: 140px;
 }
 
 /* Blog roll styling */
@@ -60,7 +60,7 @@ body { margin: 0 0 120px; /* bottom = footer height */ }
 .feedburnerFeedBlock > ul { margin: 0; }
 .feedburnerFeedBlock > ul > li { list-style-type: none; margin: 1em 0; padding: 0 0 1em; border-bottom: thin dotted #ccc; position: relative; }
 .feedburnerFeedBlock > ul > li > .headline { font-weight: bold; }
-.feedburnerFeedBlock > ul > li > .date { float: right; font-style: italic; padding-left: 1em; margin: 0;}
+.feedburnerFeedBlock > ul > li > .date { float: right; font-style: calibri; padding-left: 1em; margin: 0;}
 .feedburnerFeedBlock > ul > li > div { overflow: hidden; max-height: 300px; margin: 0.5em 0 0 0; clear: both; }
 .feedburnerFeedBlock > ul > li > div:hover { overflow: auto; }
 /* Diminish visibility of headers inside blog articles */
