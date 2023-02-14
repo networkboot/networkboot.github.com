@@ -8,6 +8,8 @@
      <ul>
       <li><a href="http://etherboot.org/">Etherboot/gPXE Wiki</a> -  No longer actively maintained, but contains some good stuff not found elsewhere</li>
       <li><a href="http://www.kegel.com/linux/pxe.html">Dan Kegel's page about PXE and network booting</a></li>
+      <li>How to deploy iPXE using DHCP on <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3850/software/release/16-5/configuration_guide/prog/b_165_prog_3850_cg/ipxe.html">Cisco equipment</a></li>
+      <li><a href="https://xrdocs.io/device-lifecycle/tutorials/2016-07-27-ipxe-deep-dive/">iPXE Deep Dive</a> - using iPXE with Cisco IOS-XR devices</li>
      </ul>
    </div>
    <div class="span6">
