@@ -10,10 +10,10 @@ To view the generated website, run this command to spin up a tiny web server
 (or use an existing one):
 
 ```
-python -m SimpleHTTPServer
+python3 -m http.server 8001
 ```
 
-Then you can open up the site (usually `http://localhost:8000/`) in your
+Then you can open up the site (usually `http://localhost:8001/`) in your
 browser.
 
 Only ever modify files under `_site`, as all the files above it is
